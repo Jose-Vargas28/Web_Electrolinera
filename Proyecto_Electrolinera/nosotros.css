@@ -1,0 +1,140 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid black;
+}
+
+.logo img {
+    margin-top: 8px;
+    width: 60px;
+    margin-left: 30px;
+}
+
+.banner-image {
+    max-width: 10%;
+    height: 30px;
+    margin: 10px 0;
+    margin-left: 100px;
+    margin-top: -35px;
+    width: 250px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.quienes-somos {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quienes-somos h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+.quienes-somos p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px; 
+    color: #333;
+    margin: 10px 0; 
+    text-align: center;
+}
+
+.imagenes-en-fila {
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px 0; 
+}
+
+.imagen-fila {
+    max-width: 20%; 
+    height: auto; 
+    transition: transform 0.3s;
+}
+
+.imagen-fila:hover {
+    transform: scale(1.1); 
+}
+
+mision-vision {
+    display: flex; 
+    align-items: flex-start;
+    justify-content: space-between; 
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px 0; 
+}
+
+.mision, .vision {
+    display: flex;
+}
+
+.mision h3, .vision h3 {
+    font-family: Arial, sans-serif; 
+    font-size: 20px; 
+    color: #333; 
+    margin-left: 20px; 
+}
+
+.mision p, .vision p {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+}
+
+footer {
+    margin-top: 20px; 
+}
+
+.linea-separadora {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 0;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.texto-copyright {
+    font-family: Arial, sans-serif;
+}
+
+.icono-copyright {
+    max-width: 100px;
+    height: auto;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+}
+
+.icono-redes {
+    width: 30px;
+    height: auto;
+}
